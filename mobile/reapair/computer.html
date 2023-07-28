@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Allans Digital TV</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="icon" href="../pics/MMM Logo.png">
+  <script>
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+    }else{
+      window.location.href = "../../desktop/reapair/computer.html";
+    }
+    </script>
+  <script type="text/javascript" src="../main.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Create three equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 40%;
+      padding: 10px;
+      height: 180px; /* Should be removed. Only for demonstration */
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+</style>
+</head>
+<body>
+    <center>
+        <div class="header">
+            <a href="../index.html"><img style="width: 100%" src="../pics/Header.png"></a>
+            <hr>
+        </center>
+        
+            <div class="dropdown-menu">
+              <div class="menu-btn"><img src="../pics/icons/bars-solid.svg"></div>
+              <div class="drop_container">
+                <a href="../tjanster.html">Tj&aumlnster</a><br>
+                <a href="../kontaktaOss.html">Kontakta oss</a><br>
+                <a href="../hittaOss.html">Hitta oss</a><br>
+                <a href="../omOss.html">Om oss</a><br>
+              </div>
+            </div>
+            <hr>
+            <script>
+              var dropdownBtn = document.querySelectorAll('.menu-btn');
+              //Add this for toggling dropdown
+              lastOpened = null;
+                  
+              dropdownBtn.forEach(btn => btn.addEventListener('click', function() {
+                var menuContent = this.nextElementSibling;
+                if (!menuContent.classList.contains("show")) {
+                menuContent.classList.add("show");
+                menuContent.classList.remove("hide");
+                } else {
+                menuContent.classList.add("hide");
+                menuContent.classList.remove("show");
+                }
+                
+                //Add this for toggling dropdown
+                if (lastOpened && lastOpened !== menuContent)
+                    lastOpened.classList.remove("show");
+                    lastOpened = menuContent;
+              }));
+            </script>
+            <style>
+                p{
+                    font-size: 15px;
+                }
+            </style>
+            <center>
+        </div>
+          <div class="row">
+            <div class="column"style="padding-left: 15px;">
+                <img src="../pics/icons/computer-solid.svg" style="height: 50px;">
+                <p>Datar&aumlddning</p>
+                <p>Fr&aringn 795kr</p>
+            </div>
+            <div class="column" style="padding-left: 5px;">
+                <img src="../pics/icons/computer-solid.svg" style="height: 50px;">
+                <p>Virusrensning</p>
+                <p>Fr&aringn 795kr</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="column" style="padding-left: 15px;">
+                <img src="../pics/icons/computer-solid.svg" style="height: 50px;">
+                <p>Antivirus</p>
+                <p>Fr&aringn 900kr</p>
+            </div>
+            <div class="column"style="padding-left: 5px;">
+                <img src="../pics/icons/computer-solid.svg" style="height: 50px;">
+                <p>Oml&oumldning av str&oumlmkontakt</p>
+                <p>Fr&aringn 995kr</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column"style="padding-left: 15px;">
+                <img src="../pics/icons/computer-solid.svg" style="height: 50px;">
+                <p>MacOS Ominstallation</p>
+                <p>Fr&aringn 1295kr</p>
+            </div>
+            <div class="column" style="padding-left: 5px;">
+                <img src="../pics/icons/computer-solid.svg" style="height: 50px;">
+                <p>Windows Ominstallation</p>
+                <p>Fr&aringn 1100kr</p>
+            </div>
+            </div>
+            <div class="row">
+                <div class="column"style="padding-left: 15px;">
+                    <img src="../pics/icons/computer-solid.svg" style="height: 50px;">
+                    <p>Fels&oumlkning Mac</p>
+                    <p>Fr&aringn 995kr</p>
+                </div>
+                <div class="column" style="padding-left: 5px;">
+                    <img src="../pics/icons/computer-solid.svg" style="height: 50px;">
+                    <p>Fel&oumlkning Windows</p>
+                    <p>Fr&aringn 495kr</p>
+                </div>
+                </div>
+  <br>
+  <br>
+  <h2 style="font-size:30px">Vad vill du reparera?</h2>
+<br>
+<br>
+<div class="row">
+      <a href="tv.html">
+    <div class="column">
+      <img style="width: 70%" src="../pics/icons/tv-solid.svg">
+      <p>TV</p>
+    </a>
+    </div>
+    <div class="column">
+      <a href="computer.html">
+      <img style="width: 75%" src="../pics/icons/computer-solid.svg">
+      <p>Dator</p>
+      </a>
+    </div>
+    <div class="column">
+      <a href="tablet.html">
+      <img style="width: 50%" src="../pics/icons/tablet-screen-button-solid.svg">
+      <p>Surfplatta</p>
+      </a>
+    </div>
+    <div class="column">
+      <a href="phone.html">
+      <img style="width: 43%" src="../pics/icons/mobile-screen-button-solid.svg">
+      <p>Mobil</p>
+      </a>
+    </div>
+  </div>
+</center>
+<br>
+<!--Footer-->
+<div class="footer">
+  <center>
+      <hr>
+      <h4><a style="color:#fff" href="https://rb.gy/lmy87o">V&aumlstra Storgatan 9, 694 30 Hallsberg</a></h4>
+      <br>
+      <h3>Ring oss eller titta in f&oumlr personlig service</h3>
+      <h3><a style="color:#fff" href="tel:+46704902290">070-490 22 90</a> / <a style="color:#fff" href="tel:+4658212999">0582-12 999</a> / <a style="color:#fff" href="tel:+46705417061">070-541 70 61</a></h3>
+      <br>
+      <br>
+      <img src="../pics/DigitalButikerna.jpg">
+      <br>
+      <h5>Copyright&copy <span id="year"></span> Allans Digital-TV / MMM Elektronik</h5>
+  </center>
+  </div>
+  </body>
+  </html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Allans Digital TV</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="pics/MMM Logo.png">
+        <script>
+          if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+          }else{
+            window.location.href = "../desktop/hittaOss.html";
+          }
+          </script>
+        <script type="text/javascript" src="main.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            .column {
+              float: left;
+              padding: 10px;
+            }
+            
+            /* Clear floats after the columns */
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            </style>
+        </head> 
+<body>
+  <div class="header">
+    <a href="index.html"><img style="width: 100%" src="pics/Header.png"></a>
+    <hr>
+<center>
+
+  <div class="dropdown-menu">
+    <div class="menu-btn"><img src="pics/icons/bars-solid.svg"></div>
+    <div class="drop_container">
+      <a href="tjanster.html">Tj&aumlnster</a><br>
+      <a href="kontaktaOss.html">Kontakta oss</a><br>
+      <a href="hittaOss.html">Hitta oss</a><br>
+      <a href="omOss.html">Om oss</a><br>
+    </div>
+  </div>
+  <hr>
+  <script>
+    var dropdownBtn = document.querySelectorAll('.menu-btn');
+    //Add this for toggling dropdown
+    lastOpened = null;
+        
+    dropdownBtn.forEach(btn => btn.addEventListener('click', function() {
+      var menuContent = this.nextElementSibling;
+      if (!menuContent.classList.contains("show")) {
+      menuContent.classList.add("show");
+      menuContent.classList.remove("hide");
+      } else {
+      menuContent.classList.add("hide");
+      menuContent.classList.remove("show");
+      }
+      
+      //Add this for toggling dropdown
+      if (lastOpened && lastOpened !== menuContent)
+          lastOpened.classList.remove("show");
+          lastOpened = menuContent;
+    }));
+  </script>
+
+</center>
+  <div>
+  <h1 style="padding-left: 20px;">Hitta Oss</h1>
+  <hr>
+  <iframe width="100%" src="https://maps.google.com/maps?width=100%25&amp;height=800&amp;hl=en&amp;q=Allans+Digital+TV%2FMMM+Elektronik+AB&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <h1>&Oumlpettider</h1>
+  <hr>
+  <div class="row">
+    <div style="width: 50%" class="column">
+      <h3>M&aringn - Fre</h3>
+      <h3>Lunch</h3>
+      <h3>L&oumlrdag</h3>
+      <h3>S&oumlndag</h3>
+    </div>
+    <div style="width: 50%" class="column">
+      <h3>10 - 18</h3>
+      <h3>12 - 13</h3>
+      <h3>10 - 14</h3>
+      <h3>St&aumlngt</h3>
+    </div>
+  </div>
+  
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--Footer-->
+<div class="footer">
+  <center>
+      <hr>
+      <h4><a style="color:#fff" href="https://rb.gy/lmy87o">V&aumlstra Storgatan 9, 694 30 Hallsberg</a></h4>
+      <br>
+      <h3>Ring oss eller titta in f&oumlr personlig service</h3>
+      <h3><a style="color:#fff" href="tel:+46704902290">070-490 22 90</a> / <a style="color:#fff" href="tel:+4658212999">0582-12 999</a> / <a style="color:#fff" href="tel:+46705417061">070-541 70 61</a></h3>
+      <br>
+      <br>
+      <img src="pics/DigitalButikerna.jpg">
+      <br>
+      <h5>Copyright&copy <span id="year"></span> Allans Digital-TV / MMM Elektronik</h5>
+  </center>
+  </div>
+  </body>
+  </html>
