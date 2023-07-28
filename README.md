@@ -1,5 +1,5 @@
 # MMM_WebSite
-A website Programed for MMM AB, AKA allanstv.se
+A website Programed for MMM AB, AKA https://allanstv.se 
 ---------------------------------------------------
 Allans Digital TV är ett företag med försäljning och reparationer inom hemelektronik.
 
